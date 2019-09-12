@@ -25,8 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .container {
             margin: auto;
             position:relative;
-            height: 500px;
-            margin-top:5%;
+            height: 300px;
+            margin-top:10%;
             max-width: 440px;
             border:1px solid #D0D0D0;
             box-shadow: 0 0 8px #D0D0D0;
@@ -40,27 +40,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             margin: auto;
         }
         .head-roll{
-            display: block;
-            max-width: 300px;
-            margin: auto;
+            display:block;
+           color: #013220 ;
+           margin-top:10px
+           margin:auto;
         }
     </style>
 </head>
 <body>
     
-    <div class="container" >
+    <div class="container" style = "background-color: #fff;">
+           <h2 class="head-roll">LIPA NA M-PESA</h2>
             <form action="#">
-                <div class="head-roll" id="">
-                        <img src="mpesa.png" alt="LIPA NA MPESA">
-                </div>
-                    
+                <br>
                 <div class="form-group">
                         <input type="text" class="form-control" id="mobileNumber" placeholder="ENTER YOUR REGISTERED M-PESA MOBILE NUMBER">
                 </div>
-
                 <div class="form-group">
                     <input type="text" class="form-control" id="idNumber" placeholder="ENTER YOUR NATIONAL ID NUMBER ">
-                </div>
+                </div><br><br>
                 <div class="btn">
                         <button type="submit" class="btn btn-default">Make Payment</button>
                 </div>
