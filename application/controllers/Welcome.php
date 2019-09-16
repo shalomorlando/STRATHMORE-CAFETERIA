@@ -20,18 +20,18 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('login');
+		$this->load->view('landing');
 	}
 	public function index1()
 	{
-		$this->load->view('landing');
+		$this->load->view('payment_module');
 	}
 	public function index2()
 	{
-		$this->load->view('additems');
+		$this->load->view('Login');
 	}
 	public function index3()
 	{
-		$this->load->view('payment_module');
+		$this->load->view('additems');
 	}
 }
