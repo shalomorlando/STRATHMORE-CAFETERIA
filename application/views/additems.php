@@ -58,7 +58,7 @@
 		<h2 >ADMIN</h2>
 	
 		<ul style="list-style: none; padding:40px; font-size:20px; font-style: sans-serif;">
-			<li><img src="<?php echo base_url();?>Images/main.jpg" style="height: 30px; width:30px;">  Home</li>
+			<li><img src="<?php echo  base_url();?>Images/home.png" style="height: 30px; width:30px;">  Home</li>
 			<li><img src="<?php echo base_url();?>Images/menu.png" style="height: 30px; width:30px; ">  Menu</li>
 			<li><img src="<?php echo base_url();?>Images/add.png" style="height: 30px; width:30px; ">  Add Food</li>
 			<li><img src="<?php echo base_url();?>Images/report.png" style="height: 30px; width:30px; ">  Reports</li>
