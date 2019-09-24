@@ -36,7 +36,7 @@
         <a class="nav-link text-dark " href="#" >Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Menu</a>
+        <a class="nav-link text-dark" href="<?php echo base_url();?>payment">Menu</a>
       </li> 
       <li class="nav-item">
         <a class="nav-link text-dark" href="#">About us </a>
