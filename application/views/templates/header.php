@@ -88,7 +88,7 @@
 </style>
 <body>
     <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-md bg-success navbar-light ">
+  <nav class="navbar navbar-expand-md bg-success navbar-light sticky-top ">
 
     <!-- Brand Logo -->
     <a class="navbar-brand text-dark" href="<?php echo base_url(); ?>"><img src="<?php echo base_url();?>images/strath.png" height="70px" width="70px">Strathmore University E-Cafe</a>
