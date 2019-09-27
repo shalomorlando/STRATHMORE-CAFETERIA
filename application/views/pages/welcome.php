@@ -2,29 +2,13 @@
 <html lang="en">
     <head>
         <title>E-CAFE</title>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap.css'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/bootsrap.css.map"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootsrap.min.css'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootsrap.min.css.map'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-grid.css'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-grid.css.map'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-grid.min.css'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-grid.min.css.map'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-reboot.css'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-reboot.css.map'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-reboot.min.css'); ?>"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-reboot.min.css.map'); ?>"/>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/bootsrap.bundle.js'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/bootsrap.bundle.js.map'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/bootsrap.bundle.min.js'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/bootsrap.bundle.min.js.map'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/bootsrap.js'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/bootsrap.js.map'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/bootsrap.min.js'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/bootsrap.min.js.map'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/jquery.min.js'); ?>"></script>
-        <script type = 'text/javascript' src = "<?php echo base_url('js/popper.min.js'); ?>"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+           
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
            
 
@@ -71,43 +55,55 @@
     </div> 
     </nav>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
 
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="">
-      
-    </div>
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="<?php echo base_url();?>images/main1.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="<?php echo base_url();?>images/main.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="<?php echo base_url();?>images/main2.jpg" alt="Third slide">
-    </div>
+<ol class="carousel-indicators">
+  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+  <div class="">
+    
   </div>
+  <div class="carousel-item active">
+    <img class="d-block w-100" src="<?php echo base_url();?>images/main1.jpg" alt="First slide">
+    <div class="carousel-caption">
+  <h1>Strathmore E-Cafeteria</h1>
+ <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
+</div>
+  </div>
+  <div class="carousel-item">
+    <img class="d-block w-100" src="<?php echo base_url();?>images/main.jpg" alt="Second slide">
+    <div class="carousel-caption">
+  <h1>Strathmore E-Cafeteria</h1>
+ <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
+</div>
+  </div>
+  <div class="carousel-item">
+    <img class="d-block w-100" src="<?php echo base_url();?>images/main2.jpg" alt="Third slide">
+    <div class="carousel-caption">
+  <h1>Strathmore E-Cafeteria</h1>
+ <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
+</div>
+  </div>
+</div>
 
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
 
 </div>
 
 
   <div>
-    <p class="fontstyle">  Menu</p>
+    <p class="fontstyle"> Chef's picks</p>
   </div>
 
 <div class="card-deck">
