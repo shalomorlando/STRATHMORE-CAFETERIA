@@ -45,6 +45,10 @@ class User extends CI_Controller {
 		$this->load->view('pages/user_history', $data);
 		$this->load->view('templates/footer');
 	}
+
+	function payment(){
+		$this->load->view('pages/payment_module');
+	}
 	
 	function admin(){
 		$this->load->view('templates/header');

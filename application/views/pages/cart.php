@@ -56,7 +56,7 @@
                     <a class="btn btn-info" href="<?php echo base_url(); ?>user/index/menu"> Continue Shopping</a>
                 </div>
                 <div class="col-sm-12 col-md-6 text-right">
-                    <a class="btn btn-success" href="<?php echo base_url(); ?>user/checkout<?php print_r($id_arr); ?>"> CHECKOUT </a>
+                    <a class="btn btn-success" href="<?php echo base_url(); ?>user/payment"> CHECKOUT </a>
                 </div>
             </div>
         </div>

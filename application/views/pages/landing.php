@@ -16,12 +16,24 @@
     </div>
     <div class="carousel-item active">
       <img class="d-block w-100" src="<?php echo base_url();?>images/main1.jpg" alt="First slide">
+      <div class="carousel-caption">
+    <h1>Strathmore E-Cafeteria</h1>
+   <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
+  </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="<?php echo base_url();?>images/main.jpg" alt="Second slide">
+      <div class="carousel-caption">
+  <h1>Strathmore E-Cafeteria</h1>
+ <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
+</div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="<?php echo base_url();?>images/main2.jpg" alt="Third slide">
+      <div class="carousel-caption">
+  <h1>Strathmore E-Cafeteria</h1>
+ <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
+</div>
     </div>
   </div>
 
@@ -38,40 +50,109 @@
 
 
   <div>
-    <p class="fontstyle">  Menu</p>
+    <p class="fontstyle"> Chef's picks</p>
   </div>
 
-  <div class='card-deck'>
-  <?php 
-  foreach($row as $r)
-  {
-    for($i=0; $i<sizeof($r); $i++){
-      if($i%4 == 0){
-      echo "<div class='card-deck'>";
-      }
-    }
-    
-  ?>
-      <div class="card">
-        <img class="card-img-top" src="<?php echo base_url();?>uploads/<?php echo $r->PicName; ?>" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><?php echo $r->Name ; ?> </h5>
-          <p class="card-text"><?php echo $r->Description; ?></p>
-          <p class="card-text text-info"><?php echo "Ksh.". $r->Price; ?></p>
-          <a href = "<?php echo base_url(); ?>order/generate/<?php echo $r->ID; ?>" class = "btn btn-primary">Order</a>
-          
-            
+  <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>images/food1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Meatballs</h5>
+      <p class="card-text">Lorem  ipsum</p>
+      <div class="text-center">
+      <a href="#" class="btn btn-primary">Order Now</a>
         </div>
-      </div>
-    <?php 
-      for($i=0; $i<sizeof($r); $i++){
-        if($i%4 == 0){
-        echo "</div>";
-        }
-      }
-    } ?>
+    </div>
 
+  </div>
 
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>images/food5.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Rice</h5>
+      <p class="card-text">Plain rice</p>
+       <div class="text-center">
+      <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+
+     
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>images/food8.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Pilau</h5>
+      <p class="card-text">Chef's pilau</p>
+       <div class="text-center">
+      <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>images/food3.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Strathmore Club burger</h5>
+      <p class="card-text">The burger has fresh lettuce</p>
+       <div class="text-center">
+      <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+     
+    </div>
+  </div>
+</div>
+
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>images/food2.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Ugali and Fish Combo</h5>
+      <p class="card-text">Lorem  ipsum</p>
+       <div class="text-center">
+      <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      
+        
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>images/food4.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Fried Chicken</h5>
+      <p class="card-text">Plain rice .</p>
+       <div class="text-center">
+      <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+     
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>images/food9.jpg" alt="Card image cap" height="208px">
+    <div class="card-body">
+      <h5 class="card-title">Pasta</h5>
+      <p class="card-text">Lorem ipsum</p>
+       <div class="text-center">
+      <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>images/food7.jpg" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Pizza</h5>
+      <p class="card-text">Lorem Ipsum</p>
+       <div class="text-center">
+      <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+     
+    </div>
+  </div>
 </div>
 
 
