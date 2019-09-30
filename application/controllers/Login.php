@@ -4,7 +4,7 @@
         public function __construct(){
             parent::__construct();
             if($this->session->userdata('uname')){
-                redirect('landing');
+                redirect('user/index');
             }
             $this->load->library('form_validation');
             $this->load->library('encrypt');
@@ -35,7 +35,7 @@
                         'email' => $email
                     );
                     $this->session->set_userdata($session_data);
-                    if($email == 'admin@strath.edu'){ //tricks
+                    if($this->session->userdata('type') == 1){ 
                         redirect(base_url().'user/admin');
                     }
                     else{
@@ -52,6 +52,7 @@
                 $this->index();
             }
         }
+
     }
 
 

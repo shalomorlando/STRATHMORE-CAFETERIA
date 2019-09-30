@@ -58,7 +58,7 @@
     <img class="card-img-top" src="<?php echo base_url();?>images/food1.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Meatballs</h5>
-      <p class="card-text">Lorem  ipsum</p>
+      <p class="card-text">A plate of meatball braised in sauce</p>
       <div class="text-center">
       <a href="#" class="btn btn-primary">Order Now</a>
         </div>
@@ -70,7 +70,7 @@
     <img class="card-img-top" src="<?php echo base_url();?>images/food5.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Rice</h5>
-      <p class="card-text">Plain rice</p>
+      <p class="card-text">Full portion Plain rice</p>
        <div class="text-center">
       <a href="#" class="btn btn-primary">Order Now</a>
         </div>
@@ -109,7 +109,7 @@
     <img class="card-img-top" src="<?php echo base_url();?>images/food2.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Ugali and Fish Combo</h5>
-      <p class="card-text">Lorem  ipsum</p>
+      <p class="card-text">Fresh lake deep-fried whole tilapia served with ugali and vegetables</p>
        <div class="text-center">
       <a href="#" class="btn btn-primary">Order Now</a>
         </div>
@@ -122,7 +122,7 @@
     <img class="card-img-top" src="<?php echo base_url();?>images/food4.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Fried Chicken</h5>
-      <p class="card-text">Plain rice .</p>
+      <p class="card-text">House special deep fried chicken marinated with assorted seasoning</p>
        <div class="text-center">
       <a href="#" class="btn btn-primary">Order Now</a>
         </div>
@@ -134,7 +134,7 @@
     <img class="card-img-top" src="<?php echo base_url();?>images/food9.jpg" alt="Card image cap" height="208px">
     <div class="card-body">
       <h5 class="card-title">Pasta</h5>
-      <p class="card-text">Lorem ipsum</p>
+      <p class="card-text">A plate of classic spaghetti</p>
        <div class="text-center">
       <a href="#" class="btn btn-primary">Order Now</a>
         </div>
@@ -146,7 +146,7 @@
     <img class="card-img-top" src="<?php echo base_url();?>images/food7.jpg" alt="Card image cap" >
     <div class="card-body">
       <h5 class="card-title">Pizza</h5>
-      <p class="card-text">Lorem Ipsum</p>
+      <p class="card-text">Full pizza available in a variety of sizes and choice of toppings</p>
        <div class="text-center">
       <a href="#" class="btn btn-primary">Order Now</a>
         </div>

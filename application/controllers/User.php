@@ -70,6 +70,15 @@ class User extends CI_Controller {
 		$this->load->view('admin/admin');
 		$this->load->view('admin/adminaddnewitem');
 	}
+
+	function admin_edit($itemid){
+		$resultset = $this->Item_model->edit_item();
+		$data_arr = array(
+			'r' => $resultset
+		);
+		
+	}
+
 	
 	function logout()
  	{

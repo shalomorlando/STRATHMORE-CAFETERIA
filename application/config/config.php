@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/STRATHMORE-CAFETERIA/';
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +324,10 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '1234';
+
+// Get a hex-encoded representation of the key:
+
+$config['encryption_key'] = 'ojvnXuRaqJzXgxiSBdTu5IKoNxl1W8dw';
 
 /*
 |--------------------------------------------------------------------------

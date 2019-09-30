@@ -42,7 +42,7 @@
         <a class="nav-link text-dark " href="<?php echo base_url(); ?>" >Home</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link text-dark" href="#menu">Menu</a>
+        <a class="nav-link text-dark" href="<?php echo base_url();?>user/index/menu">Menu</a>
         </li> 
         <li class="nav-item">
         <a class="nav-link text-dark" href="<?php echo base_url(); ?>welcome/about">About us </a>
