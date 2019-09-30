@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-<div class="col-sm-6 bg-white" style="left: 25%">
+<div class="col-sm-6 bg-white mx-auto" >
 
     <form class="text-center border border-light p-5" method="post" action="<?php echo base_url(); ?>register/validation">
 

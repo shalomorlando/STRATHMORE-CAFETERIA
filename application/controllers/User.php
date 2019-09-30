@@ -35,6 +35,16 @@ class User extends CI_Controller {
 	function remove_cart_item($ItemNo){
 		$this->Order_model->del_cart_item($ItemNo);
 	}
+	
+	function admin_landing(){
+		$results = $this->Item_model->show_items();
+		$data = array(
+			'row' =>  $results
+		);
+		$this->load->view('admin/admin_header');
+		$this->load->view('pages/landing', $data);
+		$this->load->view('templates/footer');
+	}
 
 	function user_history(){
 		$result = $this->Order_model->show_history();
@@ -51,7 +61,7 @@ class User extends CI_Controller {
 	}
 	
 	function admin(){
-		$this->load->view('templates/header');
+		$this->load->view('admin/admin_header');
 		$this->load->view('admin/admin');
 	}
 
@@ -60,13 +70,13 @@ class User extends CI_Controller {
 		$data = array(
 			'row' =>  $res
 		);
-		$this->load->view('templates/header');
+		$this->load->view('admin/admin_header');
 		$this->load->view('admin/admin');
 		$this->load->view('admin/adminmenu', $data);
 	}
 
 	function adminaddnewitem(){
-		$this->load->view('templates/header');
+		$this->load->view('admin/admin_header');
 		$this->load->view('admin/admin');
 		$this->load->view('admin/adminaddnewitem');
 	}

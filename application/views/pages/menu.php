@@ -1,5 +1,5 @@
-<div style="margin: auto;">
-<div class='card-deck'>
+<div style="margin-left: 6.5%;">
+<div class='card-deck '>
   <?php 
   foreach($row as $r)
   {
