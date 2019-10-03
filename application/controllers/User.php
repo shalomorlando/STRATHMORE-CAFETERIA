@@ -57,6 +57,7 @@ class User extends CI_Controller {
 	}
 
 	function payment(){
+		$this->load->view('templates/header');
 		$this->load->view('pages/payment_module');
 	}
 	

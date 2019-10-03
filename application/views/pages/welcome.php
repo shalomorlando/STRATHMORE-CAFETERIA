@@ -70,21 +70,21 @@
   <div class="carousel-item active">
     <img class="d-block w-100" src="<?php echo base_url();?>images/main1.jpg" alt="First slide">
     <div class="carousel-caption">
-  <h1>Strathmore E-Cafeteria</h1>
+    <h1 class="padded-multiline"><span >Strathmore E-Cafeteria</span></h1><br>
  <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
 </div>
   </div>
   <div class="carousel-item">
     <img class="d-block w-100" src="<?php echo base_url();?>images/main.jpg" alt="Second slide">
     <div class="carousel-caption">
-  <h1>Strathmore E-Cafeteria</h1>
+    <h1 class="padded-multiline"><span >Strathmore E-Cafeteria</span></h1><br>
  <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
 </div>
   </div>
   <div class="carousel-item">
     <img class="d-block w-100" src="<?php echo base_url();?>images/main2.jpg" alt="Third slide">
     <div class="carousel-caption">
-  <h1>Strathmore E-Cafeteria</h1>
+    <h1 class="padded-multiline"><span >Strathmore E-Cafeteria</span></h1><br>
  <a  class="btn btn-primary btn-lg" href="<?php echo base_url();?>user/index/menu"> Get Started</a>
 </div>
   </div>
