@@ -36,7 +36,7 @@
                     );
                     $this->session->set_userdata($session_data);
                     if($this->session->userdata('type') == 1){ 
-                        redirect(base_url().'user/admin');
+                        redirect(base_url().'admin');
                     }
                     else{
                         redirect('user');

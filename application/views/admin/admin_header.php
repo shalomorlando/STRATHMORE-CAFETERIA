@@ -91,7 +91,7 @@
   <nav class="navbar navbar-expand-md bg-success navbar-light sticky-top ">
 
     <!-- Brand Logo -->
-    <a class="navbar-brand text-dark" href="<?php echo base_url(); ?>user/admin_landing"><img src="<?php echo base_url();?>images/strath.png" height="70px" width="70px">Strathmore University E-Cafe</a>
+    <a class="navbar-brand text-dark" href="<?php echo base_url(); ?>admin/admin_landing"><img src="<?php echo base_url();?>images/strath.png" height="70px" width="70px">Strathmore University E-Cafe</a>
 
     <!-- Toggler/collapsibe Button/Hamburger Menu -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -102,7 +102,7 @@
     <div class="collapse navbar-collapse " id="collapsibleNavbar">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-        <a class="nav-link text-dark " href="<?php echo base_url(); ?>user/admin_landing" >Home</a>
+        <a class="nav-link text-dark " href="<?php echo base_url(); ?>admin/admin_landing" >Home</a>
         </li>
         <li class="nav-item">
         <a class="nav-link text-dark" href="<?php echo base_url(); ?>user/index/menu">Menu</a>
@@ -111,7 +111,7 @@
         <a class="nav-link text-dark" href="<?php echo base_url(); ?>user/index/about">About us </a>
         </li>
         <li class="nav-item">
-        <a class="nav-link text-dark" href="<?php echo base_url(); ?>user/admin">Dashboard <i class="fas fa-user-cog"></i></a>
+        <a class="nav-link text-dark" href="<?php echo base_url(); ?>admin">Dashboard <i class="fas fa-user-cog"></i></a>
         </li>
         
         <li class="dropdown nav-item ">

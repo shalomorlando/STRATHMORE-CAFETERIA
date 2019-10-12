@@ -6,7 +6,7 @@ class Order_model extends CI_Model{
         $query = $this->db->get('fooditems');
         foreach($query->result() as $row){
                 $item_name =  $row->Name;
-                $iteme_price = $row->Price;
+                $item_price = $row->Price;
                 $item_des =  $row->Description;
             
         }
@@ -21,7 +21,7 @@ class Order_model extends CI_Model{
             'ItemID' => $itemid,
             'ItemName' => $item_name,
             'ItemDes' => $item_des,
-            'Price' => $iteme_price,
+            'Price' => $item_price,
             'Quantity' => 1,
             'Status' => "uncompleted"
         );
@@ -33,7 +33,14 @@ class Order_model extends CI_Model{
 
     function show_history(){
         $userid = $this->session->userdata('id');
+        $this->db->order_by("CartID", "asc");
         $obj = $this->db->get_where('orders', array('UserID' => $userid, 'Status' => 'completed'));
+        $rs = $obj->result();
+        return $rs;
+    }
+
+    function show_transactions(){
+        $obj = $this->db->get('payments');
         $rs = $obj->result();
         return $rs;
     }
@@ -48,8 +55,22 @@ class Order_model extends CI_Model{
         $this->db->delete('orders', array('ItemID' => $itemNo, 'Status' => 'uncompleted'));
         redirect('user/cart');
     }
-    function checkout($id_arr){
-        echo '<pre>'; print_r($id_arr); echo '</pre>';
+
+    function to_checkout($data){
+        for($i=0; $i<sizeof($data);$i++){
+            $this->db->update('orders', $data[$i], array('OrderID'=> $data[$i]->OrderID));
+        }
+
+    }
+
+    function to_payment($paymentInfo){
+        $this->db->insert('payments', $paymentInfo);
+    }
+
+    function insertPhoneInfo($data){
+        $this->db->update('payments', $data, array('UserID' => $this->session->userdata('id')));
+        //updateing orders status to complete(clearing cart after payment)
+        $this->db->update('orders', array('Status'=> 'completed'), array('UserID' => $this->session->userdata('id')));
     }
 
 }

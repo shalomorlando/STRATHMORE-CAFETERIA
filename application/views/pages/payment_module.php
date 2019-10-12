@@ -1,5 +1,5 @@
 
-<form action="#" method="POST" id="frm" class="mx-auto" style="height: 400px;">
+<form action="<?php echo base_url(); ?>order/paymentInfo" method="POST" id="frm" class="mx-auto" style="height: 400px;">
 
   <div style="text-align: center;">
     <img src="<?php echo base_url(); ?>images/mpesa.jpg" width="145px" height="75x"> 
@@ -7,7 +7,8 @@
 
   <div style="text-align: center;">
     <input type="number" name="phoneno" placeholder="Enter your mobile number" class="mx-auto"><br>
-    <input type="number" name="amount" placeholder="Enter the total amount" class="mx-auto"><br>
+    <span class="text-danger"><?php echo form_error('phoneno'); ?></span>
+    <input type="number" name="amount" placeholder="Confirm your mobile number" class="mx-auto"><br>
   </div>
 
   <div class="success-checkmark">

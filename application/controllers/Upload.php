@@ -28,7 +28,7 @@ class Upload extends CI_Controller {
                 {
                         $error = array('error' => $this->upload->display_errors());
 
-                        $this->load->view('user/adminaddnewitem', $error);
+                        $this->load->view('admin/adminaddnewitem', $error);
                 }
                 else
                 {
@@ -52,7 +52,7 @@ class Upload extends CI_Controller {
 
 
                         $this->Item_model->insert($todb);
-                        redirect('user/adminmenu');
+                        redirect('admin/adminmenu');
                 }
         }
 
@@ -90,7 +90,7 @@ class Upload extends CI_Controller {
                                 'PicName' => $filename
                             );
                         $this->Item_model->item_update($todb, $itemid);
-                        redirect('user/adminmenu');
+                        redirect('admin/adminmenu');
 
                         
                 }
@@ -101,13 +101,13 @@ class Upload extends CI_Controller {
                                 'Quantity' => $quantity
                             );
                         $this->Item_model->item_update($todb, $itemid);
-                        redirect('user/adminmenu');
+                        redirect('admin/adminmenu');
                 }
         }
 
         public function del_item($itemno){
                 $this->Item_model->remove_item($itemno);
-                redirect('user/adminmenu');
+                redirect('admin/adminmenu');
         }
 
 }
