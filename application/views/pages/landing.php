@@ -109,7 +109,7 @@
     <img class="card-img-top" src="<?php echo base_url();?>images/food2.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Ugali and Fish Combo</h5>
-      <p class="card-text">Fresh lake deep-fried whole tilapia served with ugali and vegetables</p>
+      <p class="card-text">Fresh lake, deep-fried, whole tilapia served with ugali and vegetables</p>
        <div class="text-center">
       <a href="#" class="btn btn-primary">Order Now</a>
         </div>

@@ -19,7 +19,6 @@
           <div class="text-center">
             <a href = "<?php echo base_url(); ?>order/generate/<?php echo $r->ID; ?>/" class = "btn btn-primary">Add <i class="fas fa-cart-plus"></i></a>
           </div>
-            
         </div>
       </div>
     <?php

@@ -14,7 +14,7 @@
       <!-- Content -->
       <h6 class="text-uppercase font-weight-bold">Strathmore University</h6>
       <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-      <p> Strathmore University is a chartered university based in Nairobi, Kenya.</p>
+      <p> Strathmore University, a leading University in the region, whose mission is to provide all-round quality education in an atmosphere of freedom and responsibility; excellence in teaching, research and scholarship; ethical and social development; and service to society.</p>
 
     </div>
     <!-- Grid column -->
@@ -45,7 +45,7 @@
         <a href="#!">Payments</a>
       </p>
       <p>
-        <a href="<?php echo base_url(); ?>about">About us</a>
+        <a href="<?php echo base_url(); ?>user/index/about">About us</a>
       </p>
       <p>
         <a href="<?php echo base_url(); ?>">Menu</a>
