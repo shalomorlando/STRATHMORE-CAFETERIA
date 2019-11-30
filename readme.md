@@ -1,4 +1,6 @@
-STRATHMORE-CAFETERIA..
+STRATHMORE-CAFETERIA.
+
+
 AIM.
 
 Strathmore e-cafeteria is a website intended to improve the ordering and serving of food within Strathmore University's main cafeteria.
